@@ -12,9 +12,13 @@ const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
 
+const bgMusic = document.getElementById("bgMusic");
+
 // Click Envelope
 
 envelope.addEventListener("click", () => {
+    bgMusic.play();
+
     envelope.style.display = "none";
     letter.style.display = "flex";
 
@@ -74,3 +78,4 @@ yesBtn.addEventListener("click", () => {
     finalText.style.display = "block";
 
 });
+
