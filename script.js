@@ -2,8 +2,8 @@ const bgMusic = document.getElementById("bgMusic");
 const clickSound = document.getElementById("clickSound");
 const yaySound = document.getElementById("yaySound");
 // Elements
-const envelope = document.getElementById("envelope-container");
-const letter = document.getElementById("letter-container");
+const envelope = document.getElementById("envelope");
+const letter = document.getElementById("letter");
 const noBtn = document.querySelector(".no-btn");
 const yesBtn = document.querySelector(".btn[alt='Yes']");
 
@@ -12,11 +12,12 @@ const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
 
-const bgMusic = document.getElementById("bgMusic");
 
 // Click Envelope
 
 envelope.addEventListener("click", () => {
+    alert("Envelope clicked");
+
     bgMusic.play();
 
     envelope.style.display = "none";
@@ -78,4 +79,5 @@ yesBtn.addEventListener("click", () => {
     finalText.style.display = "block";
 
 });
+
 
