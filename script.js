@@ -3,7 +3,7 @@ const clickSound = document.getElementById("clickSound");
 const yaySound = document.getElementById("yaySound");
 // Elements
 const envelope = document.getElementById("envelope");
-const letter = document.getElementById("letter");
+const letter = document.getElementById("letter-container");
 const noBtn = document.querySelector(".no-btn");
 const yesBtn = document.querySelector(".btn[alt='Yes']");
 
@@ -78,6 +78,7 @@ yesBtn.addEventListener("click", () => {
     finalText.style.display = "block";
 
 });
+
 
 
 
