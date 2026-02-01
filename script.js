@@ -16,7 +16,6 @@ const finalText = document.getElementById("final-text");
 // Click Envelope
 
 envelope.addEventListener("click", () => {
-    alert("Envelope clicked");
 
     bgMusic.play();
 
@@ -79,5 +78,6 @@ yesBtn.addEventListener("click", () => {
     finalText.style.display = "block";
 
 });
+
 
 
